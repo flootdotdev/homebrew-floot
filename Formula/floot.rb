@@ -10,28 +10,28 @@
 class Floot < Formula
   desc "Command line tool for the Floot starter kit"
   homepage "https://floot.dev"
-  version "1.0.2"
+  version "1.0.3"
   license :cannot_represent
 
   on_macos do
     on_arm do
-      url "https://github.com/flootdotdev/floot/releases/download/cli-v1.0.2/floot-brew-macos-arm64.tar.gz"
-      sha256 "eae575c011da722a8b3fcea927ff77526424994f3bb821b11ddb110ebabdb4dd"
+      url "https://github.com/flootdotdev/floot/releases/download/cli-v1.0.3/floot-brew-macos-arm64.tar.gz"
+      sha256 "0c9de0da97bcbe16164aae219907a7f0d9e9cae3d63edc0b99e701361eedccf1"
     end
     on_intel do
-      url "https://github.com/flootdotdev/floot/releases/download/cli-v1.0.2/floot-brew-macos-x64.tar.gz"
-      sha256 "db7207535450a6488253815fb79449fa931e10b05c053ab5596b29ccd768ca29"
+      url "https://github.com/flootdotdev/floot/releases/download/cli-v1.0.3/floot-brew-macos-x64.tar.gz"
+      sha256 "d80a4eaf0d6a33692454ce83f974f36866ee28db84862412916b502e973ca11a"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/flootdotdev/floot/releases/download/cli-v1.0.2/floot-brew-linux-arm64.tar.gz"
-      sha256 "0f2f09a4353958909bd697e7308e91870a4e226afd1d32e8a60a4ed971eb7797"
+      url "https://github.com/flootdotdev/floot/releases/download/cli-v1.0.3/floot-brew-linux-arm64.tar.gz"
+      sha256 "5284a88be415978f1c64bbccfcb350b450e5d352c6fbb12028bd16f1e7924f3f"
     end
     on_intel do
-      url "https://github.com/flootdotdev/floot/releases/download/cli-v1.0.2/floot-brew-linux-x64.tar.gz"
-      sha256 "af380a6239abb00eeac35dc245472f9e44d6c9bb63b52b41e3ab18dc12d06409"
+      url "https://github.com/flootdotdev/floot/releases/download/cli-v1.0.3/floot-brew-linux-x64.tar.gz"
+      sha256 "520c2239a16ae87e1c4e18ff3d3be6849d52ae514f4bf8af92dd8b2222e6089e"
     end
   end
 
